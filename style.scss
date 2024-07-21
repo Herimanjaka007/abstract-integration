@@ -166,6 +166,9 @@ a {
 
     .footer__link{
         font-size: .8em;
-        display: block;
+
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }
